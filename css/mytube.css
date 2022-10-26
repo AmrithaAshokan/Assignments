@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #181818;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+  margin: 10px;
+}
+
+.search {
+  margin-left: 90px;
+  width: 700px;
+}
+
+.button {
+  margin-left: 10px;
+}
+
+.sidebar {
+  background-color: #212121;
+  width: 90px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+.sidebar ul {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 7em 2em;
+}
+.sidebar ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.sidebar ul li img {
+  width: 25px;
+  height: auto;
+}
+.sidebar ul li p {
+  color: white;
+  font-size: 0.7rem;
+}
+
+table {
+  width: 100vw;
+  height: 100vh;
+  margin-left: 90px;
+}
+table tr td {
+  padding: 2em 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  background-color: #181818;
+  color: white;
+}
+.card small {
+  color: rgba(255, 255, 255, 0.237);
+}/*# sourceMappingURL=mytube.css.map */
