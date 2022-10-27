@@ -6,6 +6,12 @@
 body {
   background-color: #181818;
 }
+body header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 5;
+}
 
 .logo {
   width: auto;
@@ -28,7 +34,7 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  z-index: -1;
+  z-index: 4;
 }
 .sidebar ul {
   width: 100%;
@@ -55,14 +61,18 @@ body {
   color: white;
   font-size: 0.7rem;
 }
+.sidebar ul li p:hover {
+  color: rgb(14, 163, 204);
+}
 
 table {
   width: 100vw;
   height: 100vh;
   margin-left: 90px;
+  margin-top: 6em;
 }
 table tr td {
-  padding: 2em 2em;
+  padding-left: 1em;
 }
 
 a {
